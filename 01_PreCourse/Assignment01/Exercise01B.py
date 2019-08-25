@@ -28,7 +28,7 @@ for i in range(1, int(Amount / Denom1), 1):
 if HaveSolution:
     print("There are", i, "$", int(Denom1), "bills")
     print("There are", j, "$", int(Denom2), "bills")
-    print("Totaling: $",(float(i) * Denom1) + (float(j) * Denom2))
+    print("Totaling: $", round((float(i) * Denom1) + (float(j) * Denom2), 2))
 
 if not HaveSolution:
     print("Something's up... did not find a solution")
