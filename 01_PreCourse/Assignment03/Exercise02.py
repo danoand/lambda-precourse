@@ -73,6 +73,7 @@ def meanMedianMode(column, isDiscrete):
             else:
                 wrkMap[y] = 1
 
+    # getMode determines the mode of a list represented by an interim map object
     def getMode(mapp):
         chkVal = None
         rtVal = 0
